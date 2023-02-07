@@ -1,0 +1,8 @@
+site_name: Nonfluence!!
+
+nav:
+  - The Index Page: "index.md"
+  - Subb:
+    - Subsection: "Test1.md"
+  - Page1: "Page1.md"
+  - Page2: "page2.md"
