@@ -1,0 +1,32 @@
+site_name: NonFluence
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  # Logo
+  logo: assets\usa.jfif
+  # Light nad dark mode toggle
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  # Fonts
+  font:
+    text: Bitcount Grid Double
+  # Plugin
+markdown_extensions:
+  # Emoji
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # Table
+  - tables
